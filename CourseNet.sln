@@ -55,7 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OwnExceptions", "OwnExcepti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateAnnonymousFunctionsLambda", "DelegateAnnonymousFunctionsLambda\DelegateAnnonymousFunctionsLambda.csproj", "{EF327676-3021-4B8A-B32F-FA49852EBB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{269DC3E2-0DF8-47A9-8288-19F665E9AA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{269DC3E2-0DF8-47A9-8288-19F665E9AA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsAndIterator", "CollectionsAndIterator\CollectionsAndIterator.csproj", "{A3508579-D73D-454F-8D95-9F7F6387C761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQBasics", "LINQBasics\LINQBasics.csproj", "{08C93876-AC5A-4841-98FB-7547BC855D49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{269DC3E2-0DF8-47A9-8288-19F665E9AA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269DC3E2-0DF8-47A9-8288-19F665E9AA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{269DC3E2-0DF8-47A9-8288-19F665E9AA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3508579-D73D-454F-8D95-9F7F6387C761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3508579-D73D-454F-8D95-9F7F6387C761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3508579-D73D-454F-8D95-9F7F6387C761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3508579-D73D-454F-8D95-9F7F6387C761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C93876-AC5A-4841-98FB-7547BC855D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C93876-AC5A-4841-98FB-7547BC855D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C93876-AC5A-4841-98FB-7547BC855D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C93876-AC5A-4841-98FB-7547BC855D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
