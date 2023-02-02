@@ -22,15 +22,14 @@ namespace DynamicObjects
 
         public T ConstructObject<T>()
         {
-            var concreteType = GetImplementationType(typeof(T));
-            var paramsConstructor = GetConstructorParameters(concreteType);
-            return (T)(Activator.CreateInstance(concreteType, paramsConstructor) ?? throw new InvalidOperationException($"Cannot construct object from type {typeof(T).FullName}"));
+            return (T)ConstructObject(typeof(T));
         }
 
         private object ConstructObject(Type type)
         {
-            var paramsConstructor = GetConstructorParameters(type);
-            return Activator.CreateInstance(type, paramsConstructor) ?? throw new InvalidOperationException($"Cannot construct object from type {type.FullName}");
+            var concreteType = GetImplementationType(type);
+            var paramsConstructor = GetConstructorParameters(concreteType);
+            return Activator.CreateInstance(concreteType, paramsConstructor) ?? throw new InvalidOperationException($"Cannot construct object from type {type.FullName}");
         }
 
         private object[] SetParamsConstructor(ParameterInfo[] parameters)
@@ -39,8 +38,7 @@ namespace DynamicObjects
             var index = 0;
             foreach (var parameter in parameters)
             {
-                var concreteParameterType = GetImplementationType(parameter.ParameterType);
-                paramsConstructor[index] = ConstructObject(concreteParameterType);
+                paramsConstructor[index] = ConstructObject(parameter.ParameterType);
                 index++;
             }
             return paramsConstructor;
@@ -53,7 +51,7 @@ namespace DynamicObjects
             return SetParamsConstructor(parameters);
         }
 
-        private ConstructorInfo GetConstructor(Type type)
+        private static ConstructorInfo GetConstructor(Type type)
         {
             var constructors = type.GetConstructors();
             var constructor = constructors.MaxBy(c => c.GetParameters().Length);
