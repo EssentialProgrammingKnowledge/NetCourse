@@ -77,7 +77,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous", "Asynchronou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerIoC", "ContainerIoC\ContainerIoC.csproj", "{E7827485-D22C-442E-821E-388AEB2F82D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQyerableVsIEnumerable", "IQyerableVsIEnumerable\IQyerableVsIEnumerable.csproj", "{033007E6-1A00-48D0-8159-669038CA0CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQyerableVsIEnumerable", "IQyerableVsIEnumerable\IQyerableVsIEnumerable.csproj", "{033007E6-1A00-48D0-8159-669038CA0CFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageFiles", "ManageFiles\ManageFiles.csproj", "{B9214BFC-DC80-40A5-AEC0-1A277D417252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageXmlFiles", "ManageXmlFiles\ManageXmlFiles.csproj", "{F674A7BC-6C66-4828-BC6D-5248BADE6066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageJSONFiles", "ManageJSONFiles\ManageJSONFiles.csproj", "{5A511278-7ECC-4192-8D70-6624CF1C67CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +243,18 @@ Global
 		{033007E6-1A00-48D0-8159-669038CA0CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033007E6-1A00-48D0-8159-669038CA0CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033007E6-1A00-48D0-8159-669038CA0CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9214BFC-DC80-40A5-AEC0-1A277D417252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9214BFC-DC80-40A5-AEC0-1A277D417252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9214BFC-DC80-40A5-AEC0-1A277D417252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9214BFC-DC80-40A5-AEC0-1A277D417252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F674A7BC-6C66-4828-BC6D-5248BADE6066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F674A7BC-6C66-4828-BC6D-5248BADE6066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F674A7BC-6C66-4828-BC6D-5248BADE6066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F674A7BC-6C66-4828-BC6D-5248BADE6066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
