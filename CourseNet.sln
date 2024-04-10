@@ -81,9 +81,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQyerableVsIEnumerable", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageFiles", "ManageFiles\ManageFiles.csproj", "{B9214BFC-DC80-40A5-AEC0-1A277D417252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageXmlFiles", "ManageXmlFiles\ManageXmlFiles.csproj", "{F674A7BC-6C66-4828-BC6D-5248BADE6066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageXmlFiles", "ManageXmlFiles\ManageXmlFiles.csproj", "{F674A7BC-6C66-4828-BC6D-5248BADE6066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageJSONFiles", "ManageJSONFiles\ManageJSONFiles.csproj", "{5A511278-7ECC-4192-8D70-6624CF1C67CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageJSONFiles", "ManageJSONFiles\ManageJSONFiles.csproj", "{5A511278-7ECC-4192-8D70-6624CF1C67CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateAndManipulateObjects", "CreateAndManipulateObjects\CreateAndManipulateObjects.csproj", "{D8E824E7-995D-4BA8-A16A-89D83F86C8D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalLambdaParameters", "OptionalLambdaParameters\OptionalLambdaParameters.csproj", "{8C791D72-B5E6-4C4C-B75B-82242BBE7B53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AliasAnyType", "AliasAnyType\AliasAnyType.csproj", "{C5888262-13F6-42B2-891B-F093D90A049A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyedServices", "KeyedServices\KeyedServices.csproj", "{CFB8023A-BE23-4226-946B-C355A7884BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +263,22 @@ Global
 		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A511278-7ECC-4192-8D70-6624CF1C67CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E824E7-995D-4BA8-A16A-89D83F86C8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E824E7-995D-4BA8-A16A-89D83F86C8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E824E7-995D-4BA8-A16A-89D83F86C8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E824E7-995D-4BA8-A16A-89D83F86C8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C791D72-B5E6-4C4C-B75B-82242BBE7B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C791D72-B5E6-4C4C-B75B-82242BBE7B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C791D72-B5E6-4C4C-B75B-82242BBE7B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C791D72-B5E6-4C4C-B75B-82242BBE7B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5888262-13F6-42B2-891B-F093D90A049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5888262-13F6-42B2-891B-F093D90A049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5888262-13F6-42B2-891B-F093D90A049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5888262-13F6-42B2-891B-F093D90A049A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB8023A-BE23-4226-946B-C355A7884BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB8023A-BE23-4226-946B-C355A7884BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB8023A-BE23-4226-946B-C355A7884BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB8023A-BE23-4226-946B-C355A7884BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
